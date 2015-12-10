@@ -24,7 +24,7 @@ title: Contact
 <!-- Map Column -->
 <div class="col-md-8">
 <!-- Embedded Google Map -->
-<iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=38.905897,1.418066&amp;spn=56.506174,79.013672&amp;t=m&amp;z=10&amp;output=embed"></iframe>
+<iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=38.905897,1.418066&amp;spn=56.506174,79.013672&amp;t=m&amp;z=20&amp;output=embed"></iframe>
 </div>
 <!-- Contact Details Column -->
 <div class="col-md-4">
@@ -64,20 +64,20 @@ title: Contact
 <form name="sentMessage" id="contactForm" novalidate>
     <div class="control-group form-group">
         <div class="controls">
-            <label>Full Name:</label>
+            <label>Nom:</label>
             <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
             <p class="help-block"></p>
         </div>
     </div>
     <div class="control-group form-group">
         <div class="controls">
-            <label>Phone Number:</label>
+            <label>Tel:</label>
             <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
         </div>
     </div>
     <div class="control-group form-group">
         <div class="controls">
-            <label>Email Address:</label>
+            <label>Email:</label>
             <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
         </div>
     </div>
