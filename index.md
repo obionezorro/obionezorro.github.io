@@ -8,7 +8,7 @@ title: Actualités
 		{% for post in site.posts limit:3 %}
 
  		<div class="col-md-4 img-portfolio">
-                    <img class="img-responsive img-hover" src="https://pixabay.com/static/uploads/photo/2012/03/03/22/57/bag-21467_960_720.jpg" alt="noel">
+                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="noel">
                 </a>
                 <h3>
                     <a href="{{ post.url }}">{{ post.title }}></a>
