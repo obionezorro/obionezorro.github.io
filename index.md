@@ -3,7 +3,7 @@ layout: default
 title: Actualités
 ---
 
-        <div class="row">
+<div class="row">
         <!-- /.row -->
 		{% for post in site.posts limit:3 %}
 
